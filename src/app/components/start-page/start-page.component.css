@@ -1,0 +1,64 @@
+#right {
+  display: block;
+  float: right;
+  width: 300px;
+}
+#tabs {
+  padding: 0 0 0 10px;
+  box-shadow: 0 2px 0 #adadad;
+}
+#game_start {
+  height: 300px;
+}
+.tab {
+  font-size: 20px;
+  padding: 24px 0;
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  color: #adadad;
+  cursor: pointer;
+  transition-duration: 2s;
+}
+.tab:hover {
+  color: #646464;
+}
+.tab.selected {
+  color: black;
+  box-shadow: 0 4px 0 #f4b311;
+  transition-duration: 1s;
+}
+.form-for-start input[type="submit"] {
+  margin-top: 10px;
+  color: #997a2f;
+  background-color: #ffc12d;
+  width: 145px;
+  float: right;
+  display: block;
+  height: 48px;
+  border-radius: 24px;
+  padding: 0 19px;
+  font-size: 20px;
+  border: 0;
+}
+#contact {
+  margin-top: 20px;
+  width: 300px;
+  align-items: center;
+  padding-left: 35px;
+  height: 150px;
+}
+#contact a {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 10px;
+}
+#left {
+  margin: 30px 0 0 60px;
+  width: 700px;
+  float: left;
+}
+#left p {
+  line-height: 25px;
+  font-size: 20px;
+}

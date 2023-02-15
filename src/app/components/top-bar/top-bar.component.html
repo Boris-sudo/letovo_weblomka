@@ -1,0 +1,18 @@
+<div class="main">
+  <h1 style="margin: 0; display: inline-block;">
+    <span (click)="router.navigate(['']);" class="name">головоломка</span>
+    <span class="about-me">
+      designed and coded
+      <br>
+      by Boris Kiva
+    </span>
+  </h1>
+
+  <div style="margin-right: 200px; margin-top: 13px; float: right; display:inline-block;">
+    <div  id="tasks" *ngFor="let use of placeService.used; index as i">
+      <a class="task-box" [class.selected]="placeService.used[i]" *ngIf="i != 0" (click)="go(i)">
+        <div class="chosen" [class.selected]="placeService.place == i"><p align="center" style="margin-top: 3px;">{{i}}</p></div>
+      </a>
+    </div>
+  </div>
+</div>

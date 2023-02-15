@@ -1,0 +1,23 @@
+.incorrect_answer {
+  width: 90%;
+  height: 25px;
+  padding-top: 5px;
+
+  background-color: #e35050;
+
+  text-align: center;
+}
+
+.level_text {
+  font-size: 25px;
+}
+
+input {
+  text-transform: lowercase;
+  user-select: none;
+}
+
+body {
+  padding: 0;
+  margin-inside: 0;
+}

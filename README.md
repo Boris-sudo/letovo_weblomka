@@ -1,2 +1,11 @@
-# letovo_weblomka
-weblomka for 8 grade letevo students
+# Weblomka
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+
+## TODO
+
+- сделать топ бар с выходом на главную страницу и продолжением работы с предыдущего места
+- сделать счетчик решенных заданий и процентное содержание решенных к нерешенным в конце
+- сделать пропуск заданий при возможности
+- добавить задание 10
+-
